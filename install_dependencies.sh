@@ -120,7 +120,7 @@ source deactivate
 
 source activate ${ENV_NAME_PY3}
 
-CONDA_BIN=$(dirname $(which activate))
+CONDA_BIN=/root/miniconda3/envs/bds_atac_py3/bin
 CONDA_EXTRA="$CONDA_BIN/../extra"
 mkdir -p $CONDA_EXTRA
 
